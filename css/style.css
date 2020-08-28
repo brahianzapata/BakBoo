@@ -1,0 +1,166 @@
+
+
+/*header*/
+header{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    flex: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 0px 0px;
+    float: left;
+}
+
+nav ul li a 
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-download{
+    background-color:Tomato;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+/*body*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    margin: 20px 60px;
+}
+
+.center 
+{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+
+.row
+{
+    display: flex;
+}
+
+.col
+{
+    flex: 1 1 auto;
+}
+
+h1{
+    font-size: 3em;
+    margin: 0;
+}
+
+h3{
+    font-size: 3em;
+    font-weight: 300;
+    margin: 0;
+}
+
+p{
+    text-align: justify;
+}
+
+/*Section1*/
+.section1 .center{
+    padding: 75px;
+}
+
+#main-section input[type="email"]{
+    padding: 12px 24px;
+    border-radius: 17px;
+    border: 1px solid #555;
+    outline: none;
+}
+
+#main-section form{
+    margin: 20px 0;
+}
+
+#main-section {
+    display: flex;
+    margin-top: 40px;
+}
+
+#main-section p{
+    padding-left: 60px;
+    padding-right: 60px;
+} 
+
+
+/*Section2*/
+.section2 {
+    margin-top: 40px;
+}
+
+/*Section3*/
+.section3 {
+    margin-top: 40px;
+}
+
+/*Section4*/
+.section4 {
+    margin-top: 40px;
+}
+
+.btn-customers{
+    background-color:Orange;
+}
+
+.btn-transactions{
+    background-color:Tomato;
+}
+
+.btn-totalValue{
+    background-color:DodgerBlue;
+}
+
+.btn-big{
+    width: 150px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.btn{
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+/*Footer*/
+
+footer
+{
+    background-color: #1b2631;
+    color:whitesmoke;
+}
+
+
+ul{
+    list-style-type: none;
+}
